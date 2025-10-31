@@ -1,0 +1,193 @@
+/* style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #505bfd83 0%, #fff8e0 100%);
+    color: #323232;
+    min-height: 100vh;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #4547B5;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(69, 71, 181, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    user-select: none;
+}
+
+.img { 
+    width: -10px;
+    height: auto;
+}
+
+.navbar h2 {
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 1rem;
+    position: relative;
+    padding: 8px 30px;
+    border-radius: 4px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.navbar a2 {
+    margin: 0 18px;
+    padding: 8px 30px;
+}
+
+.navbar a:hover {
+    background-color: #FFB41F;
+    color: #4547B5;
+    box-shadow: 0 0 8px #FFB41Faa;
+}
+
+/* Estilo do conteúdo */
+.content {
+    padding: 30px 40px;
+    max-width: 960px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(69, 71, 181, 0.1);
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2.8rem;
+    color: #4547B5;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px #FFCC00;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #FFB41F;
+    font-weight: 700;
+    border-bottom: 3px solid #4547B5;
+    padding-bottom: 6px;
+}
+
+/* Estilo da lista */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+    color: #323232;
+}
+
+li {
+    margin: 12px 0;
+    position: relative;
+    padding-left: 20px;
+    cursor: default;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #4547B5;
+    font-weight: 600;
+}
+
+/* Botão estilizado */
+button {
+    background-color: #FFB41F;
+    color: #4547B5;
+    border: none;
+    padding: 6px 14px;
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px #FFB41F88;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    user-select: none;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #e6a517;
+    box-shadow: 0 6px 14px #e6a517cc;
+    transform: scale(1.07);
+}
+
+/* Estilo das informações adicionais */
+#info, #info2 {
+    display: none;
+    margin-top: 12px;
+    margin-left: 28px;
+    background-color: #F5F6FF;
+    padding: 14px 20px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 8px #4547B566;
+    font-size: 1rem;
+    color: #4547B5;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+li:hover > #info,
+li:hover > #info2 {
+    display: block;
+}
+
+/* Estilizando sublistas */
+#info ul, #info2 ul {
+    padding-left: 15px;
+}
+
+#info li, #info2 li {
+    margin: 6px 0;
+    position: relative;
+    padding-left: 12px;
+}
+
+/* Pequena animação para smooth expand */
+#info, #info2 {
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    max-height: 400px;
+    opacity: 1;
+}
+
+.highlight1 {
+    color: #007bff; /* Cor para 'WEB' */
+    border: #3247c6;
+}
+.highlight2 {
+    color: #ffd428; /* Cor para 'Stock' */
+}
+
+.imagm2 { 
+    width: 30px;
+    height: auto;
+}
+
+.tmudo {
+    margin-left: -5px;
+}

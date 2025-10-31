@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Registre-se</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="shortcut icon" href="Adobe Express - file.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <a href="./index.html"><button type="button" class="tmudo"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg> </button></a>
+            <h2><span class="highlight1">WEB</span><span class="highlight2">Stock</span></h2>
+        </div>
+            <h1>Cadastre-se</h1>
+        <form id="formulario">
+            <fieldset>
+            
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Insira seu email">
+                <div class="error-message" id="email-error"></div>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Insira sua senha">
+                <div class="error-message" id="senha-error"></div>
+
+                <label for="confsenha">Confirmar Senha:</label>
+                <input type="password" id="confsenha" name="confsenha" placeholder="Confirme sua senha">
+                <div class="error-message" id="confsenha-error"></div>
+
+                <div class="bottom">
+                    <a href="./home.html"><button type="button" id="tzao" class="tzao">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>  
+                            </svg> Entrar </button></a>
+                
+                    <a href="./login.html"><button type="button" class="tzao">Já possui uma conta?</button></a>
+                </div>
+            </fieldset>
+
+            <div class="success-message" id="success-message"></div>
+
+            </form>
+            
+        </div>
+
+        <script src="../js/login.js"></script>
+        <script src="../js/confirmacao.js"></script>
+
+</body>
+</html>

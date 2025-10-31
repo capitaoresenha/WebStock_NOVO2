@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #4547B5;
+            color: white;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar a:hover {
+            background-color: #FFB41F;
+        }
+        .content {
+            padding: 20px;
+        }
+
+        img { 
+            width: 160px;
+            height: auto;
+        }
+        .highlight1 {
+            color: #007bff; /* Cor para 'WEB' */
+            border: #3247c6;
+        }
+        .highlight2 {
+            color: #ffd428; /* Cor para 'Stock' */
+        }
+
+        .tmudo {
+    margin-left: -5px;
+}
+
